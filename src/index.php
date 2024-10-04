@@ -8,7 +8,7 @@ checkPHPVersion($vincode);
 function checkPHPVersion($vincode = null)
 {
     if (version_compare(phpversion(), '7.0', '>=')) {
-        echo 'PHP version is greater than 7.0';
+        echo 'PHP version is greater than 8.1';
     } else {
         echo 'PHP version is less than 7.0';
     }
